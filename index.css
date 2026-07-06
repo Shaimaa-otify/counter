@@ -30,34 +30,34 @@ body {
 }
 
 h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #990000;
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: .5em 0;
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: .5em 0;
     
 }
 
 h4 {
-    font-size: 0.95rem;   
+    font-size: 1.1rem;   
     
 }
 
 p {
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin: .5em 0;
 }
 
 button {
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 #count-el {
@@ -72,7 +72,6 @@ button {
     color: whitesmoke;
     background: #329900;
     font-weight: bold;
-    font-size: .7rem;
     margin: 10px;
     border-radius: 5px;
 }
@@ -111,14 +110,12 @@ background: #283838;
     border: none;
     border-radius: 5px;
     padding: .5em 1em;
-    font-size: .5rem;
 }
 
 .mode-btn {
     border: none;
     border-radius: 5px;
     padding: .5em 1em;
-    font-size: .5rem;
     margin-top: 10px;
     background-color: grey;
     color: white;
