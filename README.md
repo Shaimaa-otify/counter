@@ -7,9 +7,12 @@ A lightweight, browser-based Pomodoro timer to help you stay focused and manage 
 - [About](#about)
 - [Features](#features)
 - [Demo](#demo)
+- [Screenshots](#screenshots)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [Project Structure](#project-structure)
 - [Tech Stack](#tech-stack)
+- [Planned Improvements](#planned-improvements)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -36,6 +39,12 @@ A lightweight, browser-based Pomodoro timer to help you stay focused and manage 
 ## Demo
 
 > Open `index.html` directly in your browser — no build step or server required.
+
+---
+
+## Screenshots
+
+> _Add screenshots here_
 
 ---
 
@@ -74,6 +83,18 @@ A lightweight, browser-based Pomodoro timer to help you stay focused and manage 
 
 ---
 
+## Project Structure
+
+```
+PomodoroCounter/
+├── index.html    # App markup
+├── index.css     # Styles & responsive layout
+├── index.js      # Timer logic, session tracking, audio
+└── README.md
+```
+
+---
+
 ## Tech Stack
 
 | Technology | Purpose |
@@ -83,6 +104,18 @@ A lightweight, browser-based Pomodoro timer to help you stay focused and manage 
 | JavaScript (ES6+) | Timer logic, DOM manipulation |
 | [canvas-confetti](https://github.com/catdad/canvas-confetti) | Celebration animation (CDN) |
 | Web Audio API | Beep alert sound |
+
+---
+
+## Planned Improvements
+
+- [ ] Notification support (browser desktop notifications)
+- [ ] Persistent session history (localStorage)
+- [ ] Custom session labels / task names
+- [ ] Keyboard shortcuts
+- [ ] Adjustable number of Pomodoros before a long break
+- [ ] Long break support
+- [ ] Progress bar or circular timer display
 
 ---
 
